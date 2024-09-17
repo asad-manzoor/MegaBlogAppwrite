@@ -7,13 +7,13 @@ import store from './store/store.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home'
 import { AuthLayout, Login } from './components/index.js'
-import AddPost from "./Pages/AddPost";
-import Signup from './Pages/Signup'
-import EditPost from "./Pages/EditPost";
+import AddPost from "./pages/AddPost.jsx";
+import Signup from './pages/Signup.jsx'
+import EditPost from "./pages/EditPost";
 
 import Post from "./pages/Post.jsx";
 
-import AllPosts from "./Pages/AllPosts.jsx";
+import AllPosts from "./pages/AllPosts.jsx";
 
 const router = createBrowserRouter([
   {
